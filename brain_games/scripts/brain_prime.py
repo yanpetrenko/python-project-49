@@ -1,5 +1,5 @@
 from brain_games.logic import check
-from brain_games.src.brain_prime_src import prime
+from brain_games.games.brain_prime_src import prime
 import brain_games.cli
 
 

@@ -1,5 +1,5 @@
 from brain_games.logic import check
-from brain_games.src.brain_gcd_src import gcd
+from brain_games.games.brain_gcd_src import gcd
 import brain_games.cli
 
 

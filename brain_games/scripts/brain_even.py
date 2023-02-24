@@ -1,5 +1,5 @@
 from brain_games.logic import check
-from brain_games.src.brain_even_src import even
+from brain_games.games.brain_even_src import even
 import brain_games.cli
 
 
