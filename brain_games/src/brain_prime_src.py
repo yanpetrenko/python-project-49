@@ -11,9 +11,9 @@ def prime():
         i -= 1
     if counter == 2:
         ansTrue = 'yes'
-    else: 
+    else:
         ansTrue = 'no'
-    return[integer, ansTrue]
+    return [integer, ansTrue]
 
 
 def main():
