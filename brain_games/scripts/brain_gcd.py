@@ -1,10 +1,10 @@
 from brain_games.logic import check
-from brain_games.src.brain_calc_src import calc
+from brain_games.src.brain_gcd_src import gcd
 import brain_games.cli
 
 
 def rules():
-    print("What is the result of the expression?")
+    print("Find the greatest common divisor of given numbers.")
 
 
 name = brain_games.cli.welcome_user()
@@ -12,7 +12,7 @@ name = brain_games.cli.welcome_user()
 
 def main():
     rules()
-    check(calc, name)
+    check(gcd, name)
 
 
 if __name__ == '__main__':

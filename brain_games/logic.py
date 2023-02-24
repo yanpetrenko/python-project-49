@@ -10,6 +10,7 @@ def check(func, name):
             print('Correct!')
         else:
             print(f'{answerUser} is wrong answer ;(. Correct answer was {answer}.')
+            print(f"Let's try again, {name}!")
             break
         counter += 1
         if counter == 3:
