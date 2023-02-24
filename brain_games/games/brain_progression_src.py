@@ -4,16 +4,16 @@ import random
 def progression():
     question = []
     i = 0
-    ind = 0
-    exp = random.randint(1, 6)
+    index = 0
+    exponent = random.randint(1, 6)
     while i < 10:
-        ind += exp
-        question.append(ind)
+        ind += exponent
+        question.append(index)
         i += 1
-    indRand = random.randint(0, 9)
-    ansTrue = question[indRand]
-    question[indRand] = '..'
-    return [question, str(ansTrue)]
+    index_random = random.randint(0, 9)
+    answer_true = question[index_random]
+    question[index_random] = '..'
+    return [question, str(answer_true)]
 
 
 def main():

@@ -5,8 +5,8 @@ def check(func, name):
         [question, answer] = func()
         print(f'Question: {question}')
         print('Your answer: ')
-        answerUser = input()
-        wrong = f'{answerUser} is wrong answer ;(. Correct answer was {answer}.'
+        answer_user = input()
+        wrong = f'{answer_user} is wrong answer ;(. Correct answer was {answer}.'
         again = f"Let's try again, {name}!"
         if answerUser == answer:
             print('Correct!')

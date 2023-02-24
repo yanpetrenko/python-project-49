@@ -10,10 +10,10 @@ def prime():
             counter += 1
         i -= 1
     if counter == 2:
-        ansTrue = 'yes'
+        answer_true = 'yes'
     else:
-        ansTrue = 'no'
-    return [integer, ansTrue]
+        answer_true = 'no'
+    return [integer, answer_true]
 
 
 def main():

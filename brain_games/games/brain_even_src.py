@@ -3,12 +3,12 @@ import random
 
 def even():
     quest = random.randint(1, 20)
-    ansTrue = ''
+    answer_true = ''
     if quest % 2 > 0:
-        ansTrue = 'no'
+        answer_true = 'no'
     else:
-        ansTrue = 'yes'
-    return [quest, ansTrue]
+        answer_true = 'yes'
+    return [quest, answer_true]
 
 
 def main():

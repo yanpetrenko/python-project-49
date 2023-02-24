@@ -6,15 +6,15 @@ def gcd():
     b = random.randint(1, 20)
     question = f'{a} {b}'
     i = a
-    ansTrue = ''
+    answer_true = ''
     if a >= b:
         i = b
     while i > 0:
         if a % i == 0 and b % i == 0:
-            ansTrue = i
+            answer_true = i
             break
         i -= 1
-    return [question, str(ansTrue)]
+    return [question, str(answer_true)]
 
 
 def main():

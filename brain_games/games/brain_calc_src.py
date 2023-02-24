@@ -2,19 +2,19 @@ import random
 
 
 def calc():
-    operatorArr = ['+', '-', '*']
-    operator = operatorArr[random.randint(0, 2)]
+    operator_array = ['+', '-', '*']
+    operator = operator_array[random.randint(0, 2)]
     a = random.randint(1, 15)
     b = random.randint(1, 15)
     question = f'{a} {operator} {b}'
-    ansTrue = ''
+    answer_true = ''
     if operator == '+':
-        ansTrue = a + b
+        answer_true = a + b
     elif operator == '-':
-        ansTrue = a - b
+        answer_true = a - b
     else:
-        ansTrue = a * b
-    return [question, str(ansTrue)]
+        answer_true = a * b
+    return [question, str(answer_true)]
 
 
 def main():
