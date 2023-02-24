@@ -13,7 +13,7 @@ def progression():
     index_random = random.randint(0, 9)
     answer_true = list[index_random]
     list[index_random] = ".."
-    question = str(list).replace("'",'').replace(",",'')
+    question = str(list).replace("'", '').replace(",", '')
     return [str(question)[1:-1:], str(answer_true)]
 
 
