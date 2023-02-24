@@ -6,11 +6,13 @@ def check(func, name):
         print(f'Question: {question}')
         print('Your answer: ')
         answerUser = input()
+        wrong = f'{answerUser} is wrong answer ;(. Correct answer was {answer}.'
+        again = f"Let's try again, {name}!"
         if answerUser == answer:
             print('Correct!')
         else:
-            print(f'{answerUser} is wrong answer ;(. Correct answer was {answer}.')
-            print(f"Let's try again, {name}!")
+            print(wrong)
+            print(again)
             break
         counter += 1
         if counter == 3:

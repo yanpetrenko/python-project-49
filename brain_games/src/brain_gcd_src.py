@@ -17,7 +17,6 @@ def gcd():
     return [question, str(ansTrue)]
 
 
-
 def main():
     gcd()
 
