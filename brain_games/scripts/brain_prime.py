@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from brain_games.logic import check
 from brain_games.games.brain_prime_src import prime
 import brain_games.cli

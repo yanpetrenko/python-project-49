@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from brain_games.logic import check
 from brain_games.games.brain_gcd_src import gcd
 import brain_games.cli

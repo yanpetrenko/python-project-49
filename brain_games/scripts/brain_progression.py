@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from brain_games.logic import check
 from brain_games.games.brain_progression_src import progression
 import brain_games.cli

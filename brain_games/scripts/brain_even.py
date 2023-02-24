@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from brain_games.logic import check
 from brain_games.games.brain_even_src import even
 import brain_games.cli

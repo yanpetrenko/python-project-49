@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from brain_games.logic import check
 from brain_games.games.brain_calc_src import calc
 import brain_games.cli
