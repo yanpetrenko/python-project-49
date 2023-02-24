@@ -5,10 +5,10 @@ def check(func, name):
         [question, answer] = func()
         print(f'Question: {question}')
         print('Your answer: ')
-        answer_user = input()
-        wrong = f'{answer_user} is wrong answer ;(. Correct answer was {answer}.'
+        ans_user = input()
+        wrong = f'{ans_user} is wrong answer ;(. Correct answer was {answer}.'
         again = f"Let's try again, {name}!"
-        if answerUser == answer:
+        if ans_user == answer:
             print('Correct!')
         else:
             print(wrong)

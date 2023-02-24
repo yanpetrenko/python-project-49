@@ -7,7 +7,7 @@ def progression():
     index = 0
     exponent = random.randint(1, 6)
     while i < 10:
-        ind += exponent
+        index += exponent
         question.append(index)
         i += 1
     index_random = random.randint(0, 9)
