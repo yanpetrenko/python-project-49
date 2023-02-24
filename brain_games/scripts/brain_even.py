@@ -5,7 +5,7 @@ import brain_games.cli
 
 
 def rules():
-    print("Answer 'yes' if the number  is even, otherwise answer 'no'.")
+    print('Answer "yes" if the number  is even, otherwise answer "no".')
 
 
 name = brain_games.cli.welcome_user()
